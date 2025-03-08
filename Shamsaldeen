@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacific&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Home Section -->
+    <section id="home">
+        <header>
+            <h1>Welcome to My CV Website</h1>
+            <p>Hello, I'm [Your Name], a [Your Profession] with expertise in [Your Skills].</p>
+        </header>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv">
+        <h2>My Resume</h2>
+        <div class="cv-container">
+            <div class="cv-item">
+                <h3>Education</h3>
+                <p>[Your Education Details]</p>
+            </div>
+            <div class="cv-item">
+                <h3>Work Experience</h3>
+                <p>[Your Work Experience Details]</p>
+            </div>
+            <div class="cv-item">
+                <h3>Skills</h3>
+                <p>[Your Skills]</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-grid">
+            <!-- Replace these with your actual portfolio items -->
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/200" alt="Portfolio 1">
+                <p>Project 1 Description</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/200" alt="Portfolio 2">
+                <p>Project 2 Description</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="your-form-handler-url" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
